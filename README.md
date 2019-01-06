@@ -327,7 +327,7 @@ $ sudo apache2ctl restart
 
 ## Authors
 
-* **Nara Yaralyan** - [LinkedIn](https://www.linkedin.com/in/nara-yaralyan-0b35a833/), [GitHub ] (https://github.com/narayaralian)
+* **Nara Yaralyan** - [LinkedIn](https://www.linkedin.com/in/nara-yaralyan-0b35a833/), [GitHub ](https://github.com/narayaralian)
 
 
 ## Acknowledgments
