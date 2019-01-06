@@ -263,7 +263,7 @@ $ git clone https://github.com/narayaralian/catalog
 - Make all necessary changes to the `database_setup.py`, `additems.py`, and `project_catalog.py`:
 
 in all three files replace `engine = create_engine('sqlite:///catalog.db')` with 
-                           `engine = create_engine('postgresql://catalog:password@localhost:5432/catalog')
+                           `engine = create_engine('postgresql://catalog:password@localhost:5432/catalog')`
 
 
 in `project_catalog.py`:
