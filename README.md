@@ -23,7 +23,7 @@ Application URL: http://ec2-54-212-66-31.us-west-2.compute.amazonaws.com/
 
 ### Starting a New Ubuntu Linux Server Instance on [Amazon Lightsail](https://lightsail.aws.amazon.com)
 
-[Amazon Lightsail](https://lightsail.aws.amazon.com) is recommended for this project by Udacity. 
+Follow the steps outlined by the Udacity's *Get started on Lightsail* :
 
 1. Log in to Lightsail. If you don't already have an Amazon Web Services account, you'll be prompted to create one.
 2. Once you're logged in, Lightsail will prompt you to create an instance. 
@@ -32,9 +32,9 @@ Application URL: http://ec2-54-212-66-31.us-west-2.compute.amazonaws.com/
 4. Choose your instance plan: for this project, the lowest tier of instance is just fine.
 5. Give your instance a unique  hostname: use any name you like, as long as it doesn't have spaces or unusual characters in it. Click on Create button and wait for your instance to start up. 
 
-###  Connecting to Your Instance with Your SSH Client
+###  Connecting to Your Instance with SSH Client
 
-1. Download your private key from your Lightsail Account page and move it into the ~/.ssh directory.
+1. Download your private key from your Lightsail Account page and move it into the ~/.ssh directory on your local machine.
 
 ```
 mv /(current_private_key_address)/LightsailDefaultKey-us-west-2.pem ~/.ssh/
@@ -61,7 +61,7 @@ $ apt-get install finger
 
 ### Configure the local timezone to UTC
 
-Configure timezone using `sudo dpkg-reconfigure tzdata` ( select none of the above and then set timezone to UTC)
+Configure timezone using `sudo dpkg-reconfigure tzdata` ( first select none of the above and then set timezone to UTC)
 
 
 ## Creating a New User (grader) and granting this user `sudo` permissions
