@@ -45,7 +45,7 @@ mv /(current_private_key_address)/LightsailDefaultKey-us-west-2.pem ~/.ssh/
   $ chmod 600 ~/.ssh/LightsailDefaultKey-us-west-2.pem
 ```
 
-2. SSH into the server with your public ip and private-public key pair:
+2. SSH into server with your public ip and private-public key pair:
 
 ```
 $ ssh -i LightsailDefaultKey-us-west-2.pem ubuntu@54.212.66.31
