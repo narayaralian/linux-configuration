@@ -64,7 +64,7 @@ $ apt-get install finger
 Configure timezone using `sudo dpkg-reconfigure tzdata` ( first select none of the above and then set timezone to UTC)
 
 
-## Creating a New User (grader) and granting this user `sudo` permissions
+## Create a New User (grader) with `sudo` permissions
 
 1. We can **create a new user** by `sudo adduser` command:
 
