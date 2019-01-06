@@ -61,7 +61,7 @@ $ apt-get install finger
 
 ### Configure the local timezone to UTC
 
-Configure timezone using `sudo dpkg-reconfigure tzdata` ( first select none of the above and then set timezone to UTC)
+Configure timezone using `sudo dpkg-reconfigure tzdata` ( first select `none of the above` and then set timezone to UTC)
 
 
 ## Create a New User (grader) with `sudo` permissions
