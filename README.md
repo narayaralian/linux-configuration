@@ -89,9 +89,9 @@ $ ssh-keygen -f ~/.ssh/graderkey
 ```
 `ssh-keygen` will generate two files: `graderkey` and `graderkey.pub`
 
-- Log into your remote Linux server through ssh as a root user or login as ubuntu user and then switch to root with `sudo -i` command, 
+- Log into your remote Linux server through ssh as a `root` user or login as `ubuntu` user and then switch to root with `sudo -i` command, 
 `cd` to `/home/grader` and create  a new `.ssh` directory using `mkdir .ssh`,
-then create an `authorized_keys` file under this new /home/grader/.ssh deirectory:
+then create an `authorized_keys` file under the new `/home/grader/.ssh` deirectory:
 
 ```
 $ touch /home/grader/.ssh/authorized_keys.
