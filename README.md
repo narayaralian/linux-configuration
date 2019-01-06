@@ -26,7 +26,7 @@ Application URL: http://ec2-54-212-66-31.us-west-2.compute.amazonaws.com/
 [Amazon Lightsail](https://lightsail.aws.amazon.com) is recommended for this project by Udacity. 
 
 1. Log in to Lightsail. If you don't already have an Amazon Web Services account, you'll be prompted to create one.
-2. Once you're logged in, Lightsail will give you a friendly message with a robot on it, prompting you to create an instance. 
+2. Once you're logged in, Lightsail will prompt you to create an instance. 
 *A **Lightsail instance** is a Linux server running on a virtual machine inside an Amazon datacenter.*
 3. Choose an instance image: Ubuntu. There are two settings to make here. First, choose "OS Only" (rather than "Apps + OS"). Second, choose Ubuntu as the operating system.
 4. Choose your instance plan: for this project, the lowest tier of instance is just fine.
